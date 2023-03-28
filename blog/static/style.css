@@ -1,0 +1,71 @@
+@font-face{
+  font-family: "Kepler Std Medium Italic Display";
+  src: url(fonts/Kepler-Std-Medium-Italic-Display.otf);
+}
+
+@font-face {
+  font-family: "Alinea Serif";
+  src: url(fonts/Alinea\ Serif.otf);
+}
+
+@font-face {
+  font-family: "Kepler Extended Display";
+  src: url(fonts/Kepler-Std-Medium-Italic-Display.otf);
+}
+
+body{
+  padding: 0;
+  margin: 0;
+}
+
+.container{
+  background-color: #F1F1E9;
+  height: 100vh;
+  width: 100vw;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: absolute;
+  z-index: 2;
+}
+
+.circle{
+  background-color: #F5C771;
+  height: 50px;
+  width: 50px;
+  border-radius: 50%;
+  position: relative;
+  right: 325px;
+  bottom: 30px;
+  z-index: -1;
+}
+
+.title h1{
+  font-family: "Alinea Serif";
+  margin: 0;
+}
+
+.title h3{
+  text-align: end;
+  font-family: "Kepler Std Medium Italic Display";
+  margin: 0;
+}
+
+.job{
+  font-family: "Kepler Extended Display";
+  position: fixed;
+  bottom: 0;
+  left: 10px;
+}
+
+.arrow{
+  position: fixed;
+  bottom: 0;
+  right: 10px;
+  font-size: 1cm;
+}
+
+.arrow:hover{
+  color: #F5C771;
+  cursor: pointer;
+}
